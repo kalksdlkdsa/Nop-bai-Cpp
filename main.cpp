@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int x = cin << "Nhập số nguyên bạn muốn chuyển đổi: ";
+    int x = cout << "Nhập số nguyên bạn muốn chuyển đổi: ";
+    cin << x;
     if (x > 0) {
         cout << "Số " << x << "là số nguyên lớn hơn 0";
     }
